@@ -1,0 +1,66 @@
+
+
+
+.header{
+ 
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  display: inline
+  
+ 
+ 
+}
+
+.container {
+
+
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  background-image: url(img/serificat.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  }
+
+
+
+  .name {
+    text-align: center;
+   position: relative; 
+   right: 5%;
+    top: -10%;
+    
+  }
+   
+  .pedagog {
+    text-align: center;
+     position: relative; 
+     right: 5%;
+    top: -8%;
+    
+  }
+  
+  .organization {
+    text-align: center;
+    
+    position: relative; 
+  
+    right: 5%;
+    top: -4%;
+   
+  }
+
+  .button {
+    margin: 5px;
+  }
