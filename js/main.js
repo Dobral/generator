@@ -49,7 +49,7 @@ const outputOrganization = document.querySelector('.organization');
 //отлавливаем нажатие кнопки и настраиваем события происходящии при нажатии
 button.addEventListener('click', () => {
   
-  outputName.innerHTML = '<h1>'+inputName.value+'</h1>';
+  outputName.innerHTML = inputName.value;
   outputPedagog.innerHTML = 'Руководитель: ' + inputPedagog.value;
   outputOrganization.innerHTML = inputOrganization.value;
 
